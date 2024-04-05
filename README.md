@@ -8,28 +8,44 @@ Image classification is a fundamental task in computer vision with numerous real
 
 Requirements
 
-Python 3
-TensorFlow 2.x
-NumPy
+- Python 3
+- TensorFlow 2.x
+- NumPy
+
 Installation
 
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/yourusername/cifar10-image-classification.git
-Navigate to the project directory:
+   ```
+   git clone https://github.com/yourusername/cifar10-image-classification.git
+   ```
 
-cd cifar10-image-classification
-Install dependencies:
+2. Navigate to the project directory:
 
-pip install -r requirements.txt
+   ```
+   cd cifar10-image-classification
+   ```
+
+3. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
 Usage
 
-Train the model:
+1. Train the model:
 
-python train.py
-Evaluate the trained model:
+   ```
+   python train.py
+   ```
 
-python evaluate.py
+2. Evaluate the trained model:
+
+   ```
+   python evaluate.py
+   ```
+
 Model Architecture
 
 The CNN model architecture used in this project comprises multiple convolutional layers followed by max-pooling layers for feature extraction. Fully connected layers are then utilized for classification, with a softmax activation function in the output layer for multi-class classification.
@@ -44,4 +60,4 @@ Contributions are welcome! Feel free to open issues for bug fixes or enhancement
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
